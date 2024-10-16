@@ -38,7 +38,7 @@ Laravelで初期データを作成する際にSeederクラスを使うケース�
 では、別のところにクラスを作ってみましょう。
 
 場所はどこでもいいですが、`autoload`の設定が入っているところにする必要があるので、
-今回は`app`配下にクラスを１つ作ります。
+今回は`app`配下にクラスを1つ作ります。
 
 内容は楽をしたいので、[`DatabaseSeeder`クラス](https://github.com/laravel/laravel/blob/v11.0.6/database/seeders/DatabaseSeeder.php)をコピーして、ネームスペースだけ書き換えます
 ※登録するデータも一部書き換えています。

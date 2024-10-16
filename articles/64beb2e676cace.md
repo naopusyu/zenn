@@ -10,7 +10,7 @@ published_at: "2022-12-03 00:05"
 ---
 
 https://qiita.com/advent-calendar/2022/php
-この記事は[PHP Advent Calendar 2022](https://qiita.com/advent-calendar/2022/php) ３日目の記事です。
+この記事は[PHP Advent Calendar 2022](https://qiita.com/advent-calendar/2022/php) 3日目の記事です。
 
 ## はじめに
 
@@ -29,7 +29,7 @@ Composerだけで出来るようになったので、今回`audit`コマンド�
 
 ## `audit`コマンド
 
-`audit`コマンドの[ドキュメント](https://getcomposer.org/doc/03-cli.md#audit)を見ると３つほどオプションがあるようです。
+`audit`コマンドの[ドキュメント](https://getcomposer.org/doc/03-cli.md#audit)を見ると3つほどオプションがあるようです。
 
 - `--no-dev`
 require-devに指定しているパッケージを含めない。

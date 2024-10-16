@@ -119,7 +119,7 @@ class ReplaceViewData
 
 #### 1. \Illuminate\Http\Responseを想定
 
-レスポンスは次の３種類のクラスが返ってくると思われます（他にもあるかもですが。。。）
+レスポンスは次の3種類のクラスが返ってくると思われます（他にもあるかもですが。。。）
 
 - \Illuminate\Http\Response
 - \Illuminate\Http\JsonResponse
