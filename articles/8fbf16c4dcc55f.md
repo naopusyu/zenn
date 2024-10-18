@@ -161,7 +161,7 @@ Viewに渡す値は`\Illuminate\View\View`の[`getData`メソッド](https://git
 Viewに渡している値を書き換えるだけではレスポンスの値には反映しないので、再度`\Illuminate\Http\Response`に値を設定してあげる必要があります。
 
 `$original`プロパティは`public`なので、直接値を設定することも可能ですが、
-最終的に返すのは、`Symfony\Component\HttpFoundation\Response`の[`$content`プロパティ](https://github.com/symfony/http-foundation/blob/6.3/Response.php#L403-L413)になるので、`$original`プロパティに値を設定しても意味がないです。
+最終的に返すのは`Symfony\Component\HttpFoundation\Response`の[`$content`プロパティ](https://github.com/symfony/http-foundation/blob/6.3/Response.php#L403-L413)になるので`$original`プロパティに値を設定しても意味がないです。
 
 そこで`\Illuminate\Http\Response`のインスタンス生成時にも呼ばれている[`setContent`メソッド](https://github.com/laravel/framework/blob/v10.13.5/src/Illuminate/Http/Response.php#LL48C3-L48C3)を使うことで`$content`プロパティにも値を設定しています。
 
