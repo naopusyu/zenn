@@ -72,9 +72,9 @@ class DatabaseSeeder extends Seeder
 
 ```
 
-出来ましたね🥳
+できましたね🥳
 
-## なぜ出来るのか
+## なぜできるのか
 
 `db:seed`コマンドの処理を見るとオプションで渡されたclass名を98行目でインスタンスを生成しているため実行できるわけですね。
 
@@ -86,6 +86,6 @@ https://github.com/laravel/framework/blob/v11.4.0/src/Illuminate/Database/Consol
 
 ## まとめ
 
-`database/seeders`配下で作っておけば、特に気にする必要もないですが、
+`database/seeders`配下で作っておけば気にする必要もないですが、
 Laravelの[パッケージ開発](https://laravel.com/docs/11.x/packages)を行っている場合、
 パッケージ配下に`seeders`ディレクトリを作ったりするかもしれないのでそういう時に使えるかもしれないですね。

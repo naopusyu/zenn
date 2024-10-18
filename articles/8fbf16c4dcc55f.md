@@ -54,7 +54,7 @@ $ php artisan make:middleware ReplaceViewData
 
 ### ルートにMiddlewareを登録
 
-出来上がったら、サンプルコードの`routes/web.php`の内容を次のように変更します。
+作成したら`routes/web.php`の内容を次のように変更します。
 
 ```diff php:routes/web.php
   use App\Http\Middleware\ReplaceViewData;
@@ -147,7 +147,7 @@ class ReplaceViewData
 
 #### 3. Viewに渡した値を取得し、書き換える
 
-Viewに渡す値は`\Illuminate\View\View`の[`getData`メソッド](https://github.com/laravel/framework/blob/v10.13.5/src/Illuminate/View/View.php#L313-L316)で取得することができます。
+Viewに渡す値は`\Illuminate\View\View`の[`getData`メソッド](https://github.com/laravel/framework/blob/v10.13.5/src/Illuminate/View/View.php#L313-L316)で取得できます。
 取得した値を加工は適当に`name`の値を変えておきます。
 書き換えた値を再度Viewに渡すには[`with`メソッド](https://github.com/laravel/framework/blob/v10.13.5/src/Illuminate/View/View.php#L237-L246)を使います。
 
@@ -175,7 +175,7 @@ Viewに渡している値を書き換えるだけではレスポンスの値に�
 
 ## まとめ
 
-実際にViewに渡した値を書き換える機会はほぼ無いかもしれないですが、
+実際にViewに渡した値を書き換える機会はほぼないかもしれないですが、
 Middlewareクラスを使えば簡単に書き換えることは可能でした。
 
 こんなこともできるってことがわかったことが今回の収穫ですね。

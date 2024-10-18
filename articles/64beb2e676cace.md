@@ -17,8 +17,7 @@ https://qiita.com/advent-calendar/2022/php
 Composer2.4からパッケージの脆弱性をチェックする`audit`コマンドが追加されました。
 https://blog.packagist.com/composer-2-4/
 
-これまではComposerとは別のツールを利用する必要があった脆弱性のチェックを
-Composerだけで出来るようになったので、今回`audit`コマンドを試してみたいと思います。
+これまではComposerとは別のツールを利用する必要があった脆弱性のチェックをComposerだけで完結できるので、今回`audit`コマンドを試してみたいと思います。
 
 ちなみに別のツールは次のものがあったりします。
 ※ここに書いたツール以外にもあると思います。

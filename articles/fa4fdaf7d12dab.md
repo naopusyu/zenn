@@ -58,7 +58,7 @@ class PostRequest extends FormRequest
 
 ## なぜ、trueを返す必要もないのか
 
-実際に、`authorize`メソッドを使っている箇所（`passesAuthorization`メソッド）を見てみると...
+実際に、`authorize`メソッドを使っている箇所（`passesAuthorization`メソッド）を見てみると、
 https://github.com/laravel/framework/blob/v10.7.1/src/Illuminate/Foundation/Http/FormRequest.php#L180-L189
 
 - `authorize`メソッドが定義があれば、`authorize`メソッドを実行し、結果を返す
@@ -71,10 +71,11 @@ https://github.com/laravel/framework/blob/v10.7.1/src/Illuminate/Foundation/Http
 次のPull Requestで変わったようです。
 https://github.com/laravel/framework/pull/25417
 
-マージされた日付をみると...`Sep 3, 2018`
-つまり、2018年9月3日、すでに5年ほど前（Laravelのバージョンは5.7）から、trueを返す実装に変わっていたようです。
+マージされた日付をみると
 
-知らなかった...
+> `Sep 3, 2018`
+
+つまり、2018年9月3日、すでに5年ほど前（Laravelのバージョンは5.7）から、trueを返す実装に変わっていたようです。（知らなかった。）
 
 ## まとめ
 

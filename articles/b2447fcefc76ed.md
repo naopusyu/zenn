@@ -37,7 +37,7 @@ services:
       - AWS_DEFAULT_REGION=ap-northeast-1
 ```
 
-- `SERVICES`で使うサービスを指定する(今回はS3のみ指定)
+- `SERVICES`で使うサービスを指定する（今回はS3のみ指定）
 - `AWS_ACCESS_KEY_ID`と`AWS_SECRET_ACCESS_KEY`の値はなんでも良いです
 - `AWS_DEFAULT_REGION`は東京リージョン
 - 永続化の設定とかあるけど今回はなし
@@ -118,7 +118,7 @@ echo 'ファイルの内容 => ' . $result['Body'] . PHP_EOL;
 LocalStackを使うと実際のS3のURLとは異なるなので`endpoint`にバケット作成で使った`http://localhost:4566`を設定する必要がある。
 
 ただし、指定することで`endpoint`が`http://{バケット名}.localhost:4566`となり実行すると名前解決できずエラーが発生します。  
-そこで`use_path_style_endpoint`に`true`を設定することで`endpoint`がパス形式(`http://localhost:4566/{バケット名}`)になり、実行可能になる。
+そこで`use_path_style_endpoint`に`true`を設定することで`endpoint`がパス形式（`http://localhost:4566/{バケット名}`）になり、実行可能になる。
 
 ## 動かしてみる
 
@@ -144,5 +144,5 @@ $ docker compose exec localstack aws --endpoint-url=http://localhost:4566 s3 ls 
 ## まとめ
 
 LocalStackを使えば簡単にS3へのアップロードができました。  
-(ただ、エンドポイントあたりがややこしいです)
+（ただし、エンドポイントあたりがややこしいです。）
 他のAWSのサービスも利用可能なので別の機会に触ってみたいと思います。
