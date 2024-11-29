@@ -81,7 +81,7 @@ class DatabaseSeeder extends Seeder
 https://github.com/laravel/framework/blob/v11.4.0/src/Illuminate/Database/Console/Seeds/SeedCommand.php#L80-L101
 
 注意点としては、
-- classオプションは`\\`を先頭につけておかないと`Database\\Seeders\`がつく
+- classオプションは`\\`を含めてクラスを指定しないと先頭に`Database\\Seeders\`がつく
 - Seederクラスは必ず`\Illuminate\Database\Seeder`を継承して、`run`メソッドを実装しておく
 
 ## まとめ
