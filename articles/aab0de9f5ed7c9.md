@@ -20,7 +20,7 @@ published_at: "2024-12-13 06:00"
 - laravel/laravel 11.3.3
 - laravel/framework 11.33.2
 
-## key:generateコマンド
+## key:generate
 
 アプリケーションキーを生成する。
 
@@ -54,7 +54,7 @@ base64:Hx6JbfTCAmh6Sf0cWX3f5zQ0byYllclHxLjrEi70Jbk=
 
 - 本番環境で`--force`を付けると実行確認を行わないで強制的に実行する
 
-## package:discoverコマンド
+## package:discover
 
 パッケージの情報を再読み込みする。
 
@@ -70,7 +70,7 @@ php artisan package:discover
 
 https://github.com/laravel/laravel/blob/v11.3.3/composer.json#L35-L38
 
-## clear-compiledコマンド
+## clear-compiled
 
 コンパイル済みのファイルを削除する。
 
