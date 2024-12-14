@@ -7,6 +7,7 @@ topics: [
     "php"
 ]
 published: true
+published_at: "2024-12-06 06:00"
 ---
 
 この記事は [カオナビ Advent Calendar 2024](https://qiita.com/advent-calendar/2024/kaonavi) シリーズ2 6日目の記事です。
