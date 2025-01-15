@@ -92,7 +92,7 @@ class ReplaceViewData
         $response = $next($request);
 
         // 1. \Illuminate\Http\Responseを想定
-        if ($original instanceof \Illuminate\Http\Response) {
+        if ($response instanceof \Illuminate\Http\Response) {
                 $original = $response->original;
         
                 // 2. originalプロパティの型はmixedなので、\Illuminate\View\Viewのインスタンスか確認
