@@ -6,6 +6,7 @@ topics:
   - "laravel"
   - "php"
   - "rector"
+publication_name: "kaonavi"
 published: true
 published_at: "2021-12-04 07:55"
 ---

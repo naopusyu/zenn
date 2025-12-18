@@ -6,6 +6,7 @@ topics: [
     "laravel",
     "php"
 ]
+publication_name: "kaonavi"
 published: true
 published_at: "2024-12-06 06:00"
 ---
