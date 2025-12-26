@@ -1,6 +1,6 @@
 ---
 title: "Laravelのルーティングでオプショナルパラメータと条件指定を組み合わせた時の挙動"
-emoji: "🦑"
+emoji: "🌿"
 type: "tech"
 topics: [
     "laravel",

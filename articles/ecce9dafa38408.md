@@ -1,6 +1,6 @@
 ---
 title: "Laravel database/seeders以外にSeederクラスを配置して実行する"
-emoji: "🕌"
+emoji: "🌿"
 type: "tech"
 topics:
   - "laravel"

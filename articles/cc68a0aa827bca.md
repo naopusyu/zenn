@@ -1,6 +1,6 @@
 ---
 title: "Laravel8に上げるときにモデルファクトリのツライ修正をRectorを使って乗り越える"
-emoji: "👹"
+emoji: "🌿"
 type: "tech"
 topics:
   - "laravel"

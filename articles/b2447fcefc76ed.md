@@ -1,6 +1,6 @@
 ---
 title: "PHPからS3へのファイルアップロードをLocalStackを使ってやってみる"
-emoji: "🐡"
+emoji: "🌿"
 type: "tech"
 topics:
   - "php"

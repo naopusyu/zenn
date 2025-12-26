@@ -1,6 +1,6 @@
 ---
 title: "リリース前の Laravel 10をインストールしてみるぞ！"
-emoji: "🍞"
+emoji: "🌿"
 type: "tech"
 topics:
   - "php"

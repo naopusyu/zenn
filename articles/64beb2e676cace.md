@@ -1,6 +1,6 @@
 ---
 title: "Composerコマンドを使ってパッケージの脆弱性をチェックする"
-emoji: "🛡️"
+emoji: "🌿"
 type: "tech"
 topics:
   - "php"

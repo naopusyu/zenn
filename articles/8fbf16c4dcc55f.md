@@ -1,6 +1,6 @@
 ---
 title: "LaravelのViewに渡した値をMiddlewareで書き換える摩訶不思議なコード"
-emoji: "🎃"
+emoji: "🌿"
 type: "tech"
 topics:
   - "laravel"

@@ -1,6 +1,6 @@
 ---
 title: "Laravel11 フレームワークのconfig読み込みを無効化する手段"
-emoji: "🍘"
+emoji: "🌿"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [
     "laravel",

@@ -1,6 +1,6 @@
 ---
 title: "composer.lockのcontent-hashがコンフリクトした時の解消方法"
-emoji: "🕌"
+emoji: "🌿"
 type: "tech"
 topics:
   - "php"

@@ -1,6 +1,6 @@
 ---
 title: "Gitマージでdry-runをやってみる"
-emoji: "📌"
+emoji: "🌿"
 type: "tech"
 topics:
   - "git"

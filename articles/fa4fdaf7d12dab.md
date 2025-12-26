@@ -1,6 +1,6 @@
 ---
 title: "Laravel FormRequestクラスのauthorizeメソッドで何もしないなら実はtrueを返す必要がなくなっていたお話"
-emoji: "👺"
+emoji: "🌿"
 type: "tech"
 topics:
   - "laravel"
