@@ -1,7 +1,7 @@
 version: '3'
 
 tasks:
-  new:
+  new:article:
     cmds:
       - npx zenn new:article --emoji 🌿 --published false
     desc: 'Create a new article'
