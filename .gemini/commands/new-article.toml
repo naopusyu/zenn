@@ -3,7 +3,5 @@ description = "記事の新規作成"
 prompt = """
 記事を新規作成してください。
 
-1. npx zenn new:articleを実行してください
-2. 🌿をemojiに設定してください
-3. publishedはfalseを設定してください
+1. task newを実行してください
 """
