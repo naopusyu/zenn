@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  new:
+    cmds:
+      - npx zenn new:article --emoji 🌿 --published false
+    desc: 'Create a new article'
+
+  preview:
+    cmds:
+      - npx zenn preview
+    desc: 'Preview articles'
