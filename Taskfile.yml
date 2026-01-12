@@ -1,14 +1,26 @@
 version: '3'
 
 tasks:
-  new:article:
+  default:
+    cmds:
+      - task --list
+    desc: 'タスクの一覧を表示'
+    silent: true
+
+  new:
     cmds:
       - npx zenn new:article --emoji 🌿 --published false
-    desc: 'Create a new article'
+    desc: '新しい記事を追加'
+    silent: true
+
+  list:
+    cmds:
+      - npx zenn list:articles
+    desc: '記事の一覧を表示'
     silent: true
 
   preview:
     cmds:
       - npx zenn preview
-    desc: 'Preview articles'
+    desc: 'コンテンツのプレビュー'
     silent: true
