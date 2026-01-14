@@ -1,12 +1,6 @@
 version: '3'
 
 tasks:
-  default:
-    cmds:
-      - task --list
-    desc: 'タスクの一覧を表示'
-    silent: true
-
   new:
     cmds:
       - npx zenn new:article --emoji 🌿 --published false
