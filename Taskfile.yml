@@ -18,3 +18,9 @@ tasks:
       - npx zenn preview
     desc: 'コンテンツのプレビュー'
     silent: true
+
+  textlint:
+    cmds:
+      - npx textlint -f pretty-error {{.CLI_ARGS}} || true
+    desc: 'textlintの実行'
+    silent: true
