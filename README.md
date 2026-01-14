@@ -2,8 +2,3 @@
 
 https://zenn.dev/naopusyu
 
-# プレビューを開く
-
-```bash
-npx zenn preview
-````
