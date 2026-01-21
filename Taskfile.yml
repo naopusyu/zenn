@@ -1,26 +1,21 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
 version: '3'
+
+silent: true
 
 tasks:
   new:
     cmds:
       - npx zenn new:article --emoji 🌿 --published false
     desc: '新しい記事を追加'
-    silent: true
-
-  list:
-    cmds:
-      - npx zenn list:articles
-    desc: '記事の一覧を表示'
-    silent: true
 
   preview:
     cmds:
       - npx zenn preview
     desc: 'コンテンツのプレビュー'
-    silent: true
 
   textlint:
     cmds:
       - npx textlint -f pretty-error {{.CLI_ARGS}} || true
     desc: 'textlintの実行'
-    silent: true
+
