@@ -16,6 +16,7 @@ tasks:
 
   textlint:
     cmds:
-      - npx textlint -f pretty-error {{.CLI_ARGS}} || true
+      - npx textlint -f pretty-error {{.CLI_ARGS}}
+    ignore_error: true
     desc: 'textlintの実行'
 
