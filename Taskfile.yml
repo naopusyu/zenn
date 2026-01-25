@@ -11,6 +11,7 @@ tasks:
 
   preview:
     cmds:
+      - open http://localhost:8000
       - npx zenn preview
     desc: 'コンテンツのプレビュー'
 
