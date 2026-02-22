@@ -6,9 +6,9 @@ topics:
   - "laravel"
   - "php"
   - "rector"
-publication_name: "kaonavi"
 published: true
 published_at: "2021-12-04 07:55"
+publication_name: "kaonavi"
 ---
 
 https://qiita.com/advent-calendar/2021/kaonavi

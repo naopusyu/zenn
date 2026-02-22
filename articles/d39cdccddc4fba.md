@@ -1,11 +1,11 @@
 ---
 title: "PHPDocの@inheritDocと{@inheritDoc}の違いについて"
 emoji: "🌿"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [
-    "php"
-]
+type: "tech"
+topics:
+  - "php"
 published: true
+published_at: "2025-07-26 13:27"
 ---
 
 ## はじめに

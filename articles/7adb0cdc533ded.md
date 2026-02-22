@@ -2,11 +2,11 @@
 title: "Laravelのルーティングでオプショナルパラメータと条件指定を組み合わせた時の挙動"
 emoji: "🌿"
 type: "tech"
-topics: [
-    "laravel",
-    "php"
-]
+topics:
+  - "laravel"
+  - "php"
 published: true
+published_at: "2025-06-22 01:20"
 ---
 
 ## はじめに

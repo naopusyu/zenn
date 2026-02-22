@@ -1,11 +1,10 @@
 ---
 title: "Laravel11 keyコマンド/packageコマンド/clear-compiledコマンド"
 emoji: "🌿"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [
-    "laravel",
-    "php"
-]
+type: "tech"
+topics:
+  - "laravel"
+  - "php"
 published: true
 published_at: "2024-12-13 06:00"
 ---

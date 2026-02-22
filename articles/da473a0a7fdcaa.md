@@ -1,14 +1,13 @@
 ---
 title: "Laravel11 フレームワークのconfig読み込みを無効化する手段"
 emoji: "🌿"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [
-    "laravel",
-    "php"
-]
-publication_name: "kaonavi"
+type: "tech"
+topics:
+  - "laravel"
+  - "php"
 published: true
-published_at: "2024-12-06 06:00"
+published_at: "2024-12-06 08:45"
+publication_name: "kaonavi"
 ---
 
 この記事は [カオナビ Advent Calendar 2024](https://qiita.com/advent-calendar/2024/kaonavi) シリーズ2 6日目の記事です。
