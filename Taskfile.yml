@@ -19,5 +19,23 @@ tasks:
     cmds:
       - npx textlint -f pretty-error {{.CLI_ARGS}}
     ignore_error: true
-    desc: 'textlintの実行'
+    desc: 'textlintの実行（個別）'
+
+  textlint-all:
+    cmds:
+      - npx textlint -f pretty-error articles/
+    ignore_error: true
+    desc: '全ての記事に対してtextlintを実行'
+
+  textlint-fix:
+    cmds:
+      - npx textlint --fix {{.CLI_ARGS}}
+    ignore_error: true
+    desc: 'textlintで修正（個別）'
+
+  textlint-fix-all:
+    cmds:
+      - npx textlint --fix articles/
+    ignore_error: true
+    desc: '全ての記事をtextlintで修正'
 
