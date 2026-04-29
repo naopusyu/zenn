@@ -23,7 +23,7 @@ https://www.php-fig.org/psr/
 
 https://github.com/php-fig/fig-standards/blob/master/proposed/phpdoc-tags.md#41-making-inheritance-explicit-using-the-inheritdoc-tag
 
-以下の例のようにPHPDocの内容に変更がない場合は`@inheritDoc`を使って親クラスの内容を継承することができる。
+以下の例のようにPHPDocの内容に変更がない場合は`@inheritDoc`を使って親クラスの内容を継承できる。
 
 ```php
 class A {
